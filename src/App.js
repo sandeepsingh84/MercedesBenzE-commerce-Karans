@@ -6,6 +6,7 @@ import {Route,Routes,Link} from "react-router-dom"
 import { Home } from './Home';
 import {Sustainability } from "./Sustainability"
 import {Design} from "./Design"
+import PracticeGit from './PracticeGit';
 
 
 
@@ -18,6 +19,8 @@ function App() {
 
 
        <Route  path="/" element={<Home/>}    />
+       <Route path='/PracticeGit' element={<PracticeGit/>}/>
+
 {/* <Route path='/Sustainability' element ={<Sustainability/> }/> */}
 
       
