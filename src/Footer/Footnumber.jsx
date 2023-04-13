@@ -4,7 +4,6 @@ const Footnumber = () => {
   return (
     <div className="h-[1150px] bg-black text-gray-300 p-28">
       <div className=" border-t">
-        {/* icon and para */}
         <div
           className="flex gap-8 items-center p-5
 mt-5 "
